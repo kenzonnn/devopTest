@@ -3,8 +3,8 @@ pipeline {
 
   environment {
     registryCredentials = "nexus"
-    registry = "172.19.96.1:8083"
-    SONARQUBE_URL = "http://172.19.96.1:9000"  // Adresse correcte de SonarQube
+    registry = "172.19.96.13:8083"
+    SONARQUBE_URL = "http://172.19.96.13:9000"  // Adresse correcte de SonarQube
     SONARQUBE_CREDENTIALS = "scannerr:{AQAAABAAAAAwg65F6yTMBh8+1TeE7qyG5EFKn0jFx5drrAo/ibru8YmRNZgSH2zm4HpYaxO46emPMmFY0hcRRRNZd3zf6QnjUw==}"  // ID du credential Jenkins (API Token SonarQube)
   }
 
